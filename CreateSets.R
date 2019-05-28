@@ -1,8 +1,9 @@
 
 #load directory
-setwd("C:\\Users\\NeelS\\Downloads\\rxnpredict-master")
+#set to whatever file path this is in
+setwd(" ")
 
-input_IDT <- read.csv("MachineLearning\\Engine\\IDT\\input_IDTnew.csv",header=TRUE)
+input_IDT <- read.csv("Datasets\\input_IDTnew.csv",header=TRUE)
 input_IDT <- as.data.frame(input_IDT)
 
 #Converts RON/MON in dataset to mol fractions of iso-octane,n-heptane,toluene
@@ -40,7 +41,7 @@ CompToFunc <- function(data){
 }
 
 input_IDT <- ONtoComp(input_IDT)
-write.csv(input_IDT, file="MachineLearning\\FunctionalGroup\\input_IDT_fuelblends.csv")
+write.csv(input_IDT, file="Datasets\\input_IDT_fuelblends.csv")
 
 input_IDT <- CompToFunc(input_IDT)
-write.csv(input_IDT, file="MachineLearning\\FunctionalGroup\\input_IDT_funcgroups.csv")
+write.csv(input_IDT, file="Datasets\\input_IDT_funcgroups.csv")
