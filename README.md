@@ -15,3 +15,5 @@ To those who use this to reproduce my results:
 
 
 If you have any questions or concerns or tips feel free to contact me.
+
+Also .... I would/could post the code for other analyses for CA50, ON, or laminar flame speed (with empircal model comparisons) but the code for those files are super ugly. If someone want to see those files, I can send/upload them.
