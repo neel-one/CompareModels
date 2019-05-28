@@ -9,7 +9,7 @@ To those who use this to reproduce my results:
 
 0) Go into CreateSets.R and Analysis.R and set the proper working directory
 
-0.5) Download required packages if you don't have them
+0.5. Download required packages if you don't have them
 1) Run CreateSets.R, it will take the ON set in Datasets and create a fuel blends set and a functional group set
 2) Run Analysis.R, models will be trained and results will be graphed and appropriate files will be created
 
